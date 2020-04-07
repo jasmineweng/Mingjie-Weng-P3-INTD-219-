@@ -1,0 +1,176 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(2, 51, 51);
+    background-image: url(image/simon-migaj-Yui5vfKHuzs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+nav {
+    display: flex;
+    background-color:rgb(2, 51, 51);
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    padding-left: 1025px;
+    position: fixed;
+    
+}
+
+ul {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+ul li {
+    list-style: none;
+    width: 210px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+ul li a {
+    text-align: center;
+    color:rgb(2, 165, 177);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+main {
+    height: 800px;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .header {
+    background-image: url(image/forest-with-sunlight-158251.jpg);
+    background-size: cover;
+    padding: 120px;
+    text-align: center;
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .row {  
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  hr { 
+    display: block;
+    margin-top: -1em;
+    margin-bottom: -1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+  } 
+  h2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  h3 {
+    margin-top: 0px;
+    margin-bottom: -10px;
+    margin-left: 0px;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+
+  }
+  h5 {
+      font-size: 24px;
+      font-family: a;
+      font-weight: 200;
+  }
+
+  h6 {
+    margin-bottom: 15px;
+      font-size: 20px;
+      font-family: a;
+      font-weight: 200;
+  }
+
+  audio {
+      margin-left: 230px;
+
+  }
+
+  .side {
+    -ms-flex: 30%; 
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 80px;
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+  
+  .img {
+    max-width: 400px;
+    max-width: 800px;
+    background-image: url(image/forest-with-sunlight-158251.jpg);
+    width: 100%;
+    padding: 20px;
+  }
+
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(2, 51, 51);
+    text-align: right;
+    font-size: 3px;
+ }
+
+iframe {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+ 
